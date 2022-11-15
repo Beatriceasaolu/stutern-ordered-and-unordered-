@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main, .main2{
+    padding: 20px;
+    margin: 20px;
+    background-color: #005900;
+}
+#first{
+    padding: 30px 50px;
+    margin: 50px 10px;
+    background-color: #005900;
+    transition: all ease-in-out 4s;
+    animation-name: left;
+}
+@keyframes left {
+    0%{left: 0;}
+    50%{left: 25%;}
+    100%{left: 50%;}
+}
+#second{
+    padding: 30px 50px;
+    margin: 20px 10px;
+    background-color: brown;
+    color: white;
+    transition: all ease-in 8s;
+}
+div > h1{
+    margin-bottom: 30px;
+}
+ul, ol {
+    line-height: 20px;
+}
